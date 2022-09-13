@@ -19,6 +19,12 @@
   color: var(--accent-color);
 }
 
+.page-header {
+  border-bottom: 1px solid var(--primary-border-color);
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
 // // MOB
 
 @media screen and (max-width: 767px) {
@@ -51,17 +57,11 @@
     }
   }
 
-  .page-header {
-    border-bottom: 1px solid var(--primary-border-color);
-    min-width: 480px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
   .page-header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: 480px;
+    // min-width: 480px;
   }
 }
 
@@ -118,7 +118,7 @@
   }
 
   .menu__link.current::after {
-    content: '';
+    content: "";
     display: block;
     bottom: -1px;
 

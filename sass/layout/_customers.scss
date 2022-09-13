@@ -17,15 +17,16 @@
   }
 }
 
+.customers {
+  width: 100%;
+}
+
 .customers-list__icon {
   fill: currentColor;
 }
 
-@media screen and (max-width: 479px) {
-  .customers {
-    min-width: 470px;
-  }
-}
+// @media screen and (max-width: 479px) {
+// }
 
 @media screen and (max-width: 767px) {
   .customers-list {
