@@ -1,0 +1,15 @@
+.suptitle {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: inherit;
+  color: var(--title-text-color);
+}
+
+@media screen and (max-width: 1199px) {
+  .suptitle {
+    font-size: 28px;
+  }
+}
